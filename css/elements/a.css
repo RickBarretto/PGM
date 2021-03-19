@@ -1,0 +1,34 @@
+a {
+    color: rgb(0, 51, 3);
+    font-weight: bolder;
+    text-decoration: none;
+    box-shadow: inset 0px -10px 0 rgba(0, 128, 0, 0.247);
+    transition: all ease .2s;
+    display: inline-block;
+}
+
+a:hover {
+    transform: translateY(-4px);
+    box-shadow: inset 0px -14px 0 rgba(0, 128, 0, 0.247);
+}
+
+h3 > a {
+    transition: box-shadow ease .2s;
+    box-shadow: none;
+}
+
+h3:hover > a {
+    box-shadow: inset -60px 0px 0 rgba(0, 128, 0, 0.247);
+}
+
+li > a  {
+    box-shadow: inset 0px -7px 0px rgba(0, 128, 0, 0.247);
+}
+
+li:hover > a {
+    box-shadow: inset 0px -11px 0 rgba(0, 128, 0, 0.247);
+}
+
+#header-toggler:checked ~ a{
+    z-index: -1;
+}

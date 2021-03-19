@@ -1,0 +1,21 @@
+#start {
+    padding-top: 5rem;
+    background: 
+    linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
+      ),
+    url(https://images.unsplash.com/photo-1505274664176-44ccaa7969a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTgwOTN8MHwxfHNlYXJjaHwyfHxyZXZlbmdlfGVufDB8fHx8MTYxNjEwOTkxMQ&ixlib=rb-1.2.1&q=80&w=1080);
+    background-size: cover;
+    background-position: 50% 40%;
+    padding-bottom: 2rem;
+    color: white;
+}
+#start > p {
+    margin-top: 3rem;
+}
+
+#start > header > h2 {
+    margin-top: 1rem;
+    color: white;
+}

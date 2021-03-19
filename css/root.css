@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::selection{
+    background-color: rgba(0, 63, 0, 0.685);
+    color: white;
+}
+
+
+
