@@ -1,5 +1,8 @@
 main {
     padding: 1rem 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 main > section > h2,
@@ -11,4 +14,34 @@ main > section > header {
 
 main > section {
     padding: 0 5rem;
+    max-width: 80rem;
+}
+
+@media screen and  (max-width: 950px)
+{
+    main {
+        padding: 1rem 2rem;
+    }
+     
+    main > section {
+        padding: 0 2rem;
+    }
+}
+
+@media screen and  (max-width: 655px)
+{
+    main {
+        padding: 1rem 1rem;
+    }
+     
+    main > section {
+        padding: 0 1rem;
+    }
+}
+
+@media screen and  (max-width: 355px)
+{
+    main > section {
+        padding: 0 0;
+    }
 }

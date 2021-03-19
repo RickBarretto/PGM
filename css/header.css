@@ -82,3 +82,23 @@
     text-align: center;
 }
 
+@media screen and (max-width: 1024px)
+{
+    .main-header-container > ul{
+        display: none;
+    }
+
+    .main-header-container {
+        justify-content: space-between;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+}
+
+@media screen and (max-width: 500px)
+{
+    .main-header-container {
+        justify-content: space-around;
+        padding: 1rem 0;
+    }
+}

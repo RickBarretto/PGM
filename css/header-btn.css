@@ -6,7 +6,7 @@
 .toggler-icon {
     width: 30px;
     height: 20px;
-    display: flex;
+    display: none;
     flex-direction: column;
     gap: 4px;
     z-index: 10000;
@@ -121,5 +121,12 @@
     100% {
         transform-origin: top left;
         transform: rotate(0deg);
+    }
+}
+
+@media screen and (max-width: 1024px)
+{
+    .toggler-icon {
+        display: flex;
     }
 }

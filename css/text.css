@@ -35,6 +35,7 @@ h2{
 #page-subtitle {
     font-size: 1.8rem;
     text-align: center;
+    margin: 0 1rem;
 }
 
 #page-author {
@@ -77,4 +78,61 @@ q {
 
 .mark {
     box-shadow: inset 0px -15px 0 rgba(251, 255, 0, 0.438);
+}
+
+@media screen and (max-width: 1024px)
+{
+    h1 {
+        font-size: 5rem;
+    } 
+    #page-subtitle {
+        font-size: 1rem;
+    }
+
+    #page-author {
+        font-size: .9rem;
+        text-align: center;
+        font-family: 'Recursive', sans-serif;
+        font-weight: 800;
+    }
+}
+
+@media screen and (max-width: 402px)
+{
+    h1 {
+        font-size: 4rem;
+    }  
+    blockquote {
+        margin: .5rem 0;
+        padding: 1rem .5rem;
+    }
+    blockquote::before{
+        content: "‟";
+        font-size: 3rem;
+        margin-right: .5rem;
+    }
+
+    h2{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 240px)
+{
+    h1 {
+        font-size: 2rem;
+    }  
+    blockquote {
+        margin: 1rem 0;
+        padding: 1rem .2rem;
+    }
+    blockquote::before{
+        content: "‟";
+        font-size: 1.5rem;
+        margin-right: .2rem;
+    }
+
+    h2{
+        font-size: 1.5rem;
+    } 
 }
