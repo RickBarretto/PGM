@@ -1,0 +1,21 @@
+footer {
+    background-color: green;
+}
+
+footer > h2 {
+    color: white;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+footer a {
+    color: white;
+    box-shadow: inset 0px -10px 0 rgba(255, 255, 255, 0.247);
+    border-bottom: darkgreen solid 3px;
+    margin: .5rem 0;
+}
+
+footer > p {
+    text-align: center;
+    padding-bottom: 10rem;
+}
